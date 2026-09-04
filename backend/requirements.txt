@@ -1,0 +1,29 @@
+# Backend API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Numerical / ML
+numpy==1.26.4
+torch==2.4.1
+torchvision==0.19.1
+scikit-learn==1.5.2
+
+# Embeddings — pick one and stage weights locally before offline eval
+open-clip-torch==2.26.1
+# transformers==4.44.2   # alternative if using a HF remote-sensing model
+
+# Vector search
+faiss-cpu==1.8.0.post1
+# qdrant-client==1.11.1  # alternative/addition if using Qdrant instead of FAISS
+
+# Geospatial / imagery
+rasterio==1.3.10
+GDAL==3.9.2   # install via conda or system package if pip build fails
+geopandas==1.0.1
+shapely==2.0.6
+opencv-python-headless==4.10.0.84
+
+# Utilities
+python-multipart==0.0.9
