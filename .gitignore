@@ -16,3 +16,15 @@ backend/models/
 
 # OS
 .DS_Store
+
+# Standards & hygiene
+.env.local
+.env.*.local
+*.pem
+*.key
+npm-debug.log*
+yarn-debug.log*
+build/
+*.py[cod]
+.venv/
+*.egg-info/
