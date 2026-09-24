@@ -12,9 +12,7 @@ def find_similar_sites(request: SimilarSitesRequest):
     'Find Similar Sites' -- given one interesting location, cluster/rank other
     locations in the archive (optionally restricted to region_bbox) by similarity.
     """
-    # TODO: resolve request.tile_id -> image path, embed it, then search restricted
-    # to region_bbox via filters
-    tile_path = None
+    tile_path = request.tile_id
     query_vector = embedding_service.embed_image(tile_path)
     filters = {"bbox": request.region_bbox} if request.region_bbox else None
     results = vector_store.search(query_vector, top_k=request.top_k, filters=filters)

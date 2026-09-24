@@ -17,5 +17,5 @@ def detect_change(request: ChangeDetectionRequest):
     mask_a = cds.mask_invalid(image_a_path)
     mask_b = cds.mask_invalid(image_b_path)
     diff_map = cds.compute_diff(image_a_path, aligned, mask_a, mask_b)
-    result = cds.classify_change(diff_map)
+    result = cds.classify_change(diff_map, lat=request.latitude, lon=request.longitude)
     return ChangeEvidence(**result)

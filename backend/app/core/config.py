@@ -4,7 +4,7 @@ Everything that points at a local file/model lives here so the rest of the
 codebase never hardcodes a path — makes the "offline staging" requirement
 easy to satisfy and easy to demo.
 """
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -24,8 +24,7 @@ class Settings(BaseSettings):
     # Search
     default_top_k: int = 12
 
-    class Config:
-        env_file = ".env"
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 
 settings = Settings()
