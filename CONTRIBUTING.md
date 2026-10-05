@@ -1,39 +1,86 @@
-# Contributing to sih26227-satellite-intel
+# 🚀 Contributing to `sih26227-satellite-intel`
 
-Thank you for your interest in contributing to **sih26227-satellite-intel**! Follow these guidelines to ensure smooth collaboration.
+<div align="center">
 
-## Getting Started
+### 🛰️ Satellite Intelligence • AI • Geospatial Analytics
 
-1. **Fork the repository** on GitHub.
-2. **Clone your fork** locally:
-   ```bash
-   git clone https://github.com/<your-username>/sih26227-satellite-intel.git
-   cd sih26227-satellite-intel
-   ```
-3. **Create a feature branch**:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
+<p>
+  <strong>Build • Analyze • Innovate • Contribute</strong>
+</p>
 
-## Development Workflow
+[![Contributors](https://img.shields.io/github/contributors/kriss2012/sih26227-satellite-intel?style=for-the-badge)](https://github.com/kriss2012/sih26227-satellite-intel/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/kriss2012/sih26227-satellite-intel?style=for-the-badge)](https://github.com/kriss2012/sih26227-satellite-intel/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/kriss2012/sih26227-satellite-intel?style=for-the-badge)](https://github.com/kriss2012/sih26227-satellite-intel/pulls)
+[![License](https://img.shields.io/github/license/kriss2012/sih26227-satellite-intel?style=for-the-badge)](LICENSE)
 
-1. Install dependencies following instructions in [README.md](README.md).
-2. Implement your changes clearly with clean, maintainable code.
-3. Run tests: `pytest` or `python -m unittest discover`
-4. Ensure no credentials, API keys, or `.env` files are tracked.
+</div>
 
-## Submitting Changes
+---
 
-1. Commit your changes with descriptive commit messages:
-   ```bash
-   git commit -m "feat: add support for XYZ"
-   ```
-2. Push to your fork:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-3. Open a **Pull Request** targeting the `main` branch.
+## 🌌 Welcome, Contributor
 
-## Code of Conduct
+Thank you for your interest in contributing to **`sih26227-satellite-intel`**.
 
-Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) during all interactions.
+This project is built around **satellite intelligence, AI-powered analysis, geospatial data, and intelligent information extraction**.
+
+Every contribution matters — whether you are fixing a bug, improving documentation, optimizing an algorithm, adding a new feature, or improving the user experience.
+
+> 🛰️ **Your code can help transform raw satellite data into meaningful intelligence.**
+
+---
+
+# 🧊 Contribution Architecture
+
+```text
+                    ┌──────────────────────┐
+                    │      💡 IDEA         │
+                    │  Feature / Research  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      🍴 FORK         │
+                    │   Repository Copy    │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      💻 CLONE        │
+                    │   Local Development  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      🌿 BRANCH       │
+                    │ Feature / Fix Branch │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      ⚙️ DEVELOP      │
+                    │ Code • Test • Improve │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      🔍 REVIEW       │
+                    │   Test & Validate    │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      🚀 PUSH         │
+                    │    Your Changes      │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      🔀 PULL         │
+                    │      REQUEST         │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      🛰️ MERGE       │
+                    │   Into `main`        │
+                    └──────────────────────┘
