@@ -127,7 +127,7 @@ If a better technology choice is available, explain why before changing the arch
 ==================================================
 
 Create a modern professional academic/research interface.
-
+ 
 Design inspiration:
 - Grammarly
 - Turnitin-style academic analysis interfaces
