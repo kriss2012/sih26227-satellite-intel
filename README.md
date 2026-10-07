@@ -1,4 +1,4 @@
-# SIH26227 — Offline Satellite Intelligence & Change-Analysis Platform
+# SIH26227 — Offline Satellite Intelligence & Change-Analysis Platform 
 
 An offline-first platform where an analyst can search satellite imagery in natural
 language, find visually similar locations, detect meaningful changes between dates,
